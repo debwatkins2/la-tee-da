@@ -14,7 +14,7 @@ html {
 
     move files to folder, include bold, bold-italic, italic files, use same code as above except PT-Sans-Bold
     font-weight: bold
-}   */ 
+}   */
 
 body {
     font-family: Tahoma, sans-serif;
@@ -26,45 +26,28 @@ body {
     margin-right: auto;
     margin-top: 5%;
     background-color: #FFF;
-    padding: 0 40px;
+    background-image: url(border.png);
+    background-repeat: repeat-x;
+    background-repeat:
+    padding-left: 40px;
     box-sizing: border-box;
 }
-/* Site Navigation */
-.site-nav li {
-    list-style: none;
-    float: left;
-    margin-right: 5px;
-}
-.site-nav ul {
-    margin: 0;
-    padding: 0;
-}
-.site-nav a {
-    display: block;
-    color: #869960;
-    padding: 10px 20px;
-    border: 3px solid #e5e9dc;
-    text-decoration: none;
-    border-bottom: none;
-}
-.site-nav a:hover {
-    background-color: #e5e9dc;
-}
-/* end Site Navigation */
-
 .content-area {
     border-top: 3px solid #e5e9dc;
     border-bottom: 3px solid #e5e9dc;
+    margin-left: 3%;
 }
 header h1 {
     margin: 0;
     padding-top: 5%;
+    padding-left: 10%;
     font-weight: normal;
-    font-size: 165%;
+    font-size: 300%;
     box-sizing: border-box;
 }
 header h2 {
     font-weight: normal;
+    padding-left: 10%;
 }
 header p {
     margin: 0;
@@ -73,10 +56,35 @@ header {
     color: #617140;
 }
 .main-area {
-    width: 66%;
     float: left;
     padding-right: 40px;
     box-sizing: border-box;
+}
+.main-area p {
+    font-size: 400%;
+    color: #f49aca;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.image-banner {
+    position: relative;
+}
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 120%;
+    font-style: italic;
+    background-color: rgba(234, 126, 193, .6);
+    padding: 4.5%;
+}
+.image-banner img {
+    display: block;
 }
 .sidebar {
     width: 34%;
